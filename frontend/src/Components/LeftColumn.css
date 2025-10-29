@@ -1,0 +1,79 @@
+.kyiv-text p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    vertical-align: middle;
+    margin: 16px 16px 24px 16px;
+}
+
+.kyiv-wrapper {
+    border-top: 1px solid black;
+
+}
+.kyiv-text h1 {
+    vertical-align: middle;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    margin: 40px 16px;
+}
+
+.kyiv-contents {
+    display: flex;
+    padding: 16px;
+    gap: 20px;
+    justify-content: center;
+}
+.vertical-line {
+    width: 1px;
+    background-color: #121212;
+}
+
+.rect {
+    width: 100%;
+}
+
+.kyiv-p p{
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+.left-column1 {
+    border: 1px solid #121212;
+}
+
+.kyiv-img {
+    width: 100%;
+}
+.kyiv-p {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+    .left-column1{
+        padding: 2.5rem;
+    }
+
+    .left-column h1 {
+        font-size: 3rem;
+    }
+
+    .kyiv-p p {
+        font-size: 1.3rem;
+    }
+
+    .kyiv-text p {
+        font-size: 1.3rem;
+    }
+
+    
+
+
+}

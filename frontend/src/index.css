@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Gilroy", "Segoe UI", sans-serif;
+  background-color: #fff;
+  
+  
+}
+
+.App-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  padding: 0 16px;
+  height: 100%;
+}
+
+.App-container * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1440px) {
+  .App-container {
+    max-width: 1440px; 
+  }
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/Fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/Fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/Fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: 'Zapfino';
+  src: url('./assets/Fonts/ZapfinoForteLTPro.otf') format('truetype');
+  font-style: normal;
+}

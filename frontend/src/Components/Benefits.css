@@ -1,0 +1,82 @@
+.stylish, .on-time, .safe, .sub {
+    border: 1px solid #121212;
+}
+.benefits {
+    border: 1px solid #121212;
+}
+
+.why {
+    border: 1px solid #121212;
+}
+
+.why h1 {
+    margin: 40px 16px;
+}
+
+.benefits h3 {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    margin: 40px 16px 20px 16px;
+}
+
+.benefits p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0px 16px 40px 16px;
+
+}
+
+@media (min-width: 768px) {
+    .benefits h3 {
+        margin: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .benefits p {
+        margin: 2.5rem;
+        font-size: 1.2rem;
+    }
+    .why h1 {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        margin-left: 36px;
+
+    }
+
+    .why {
+        border: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .benefits {
+        display: flex;
+    }
+
+    .why {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .soss {
+        width: 100%;
+    }
+
+    .soss h3{
+        font-size: 2.5rem;
+    }
+    .soss p {
+        font-size: 1.3rem;
+    }
+
+    
+}

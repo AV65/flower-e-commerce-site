@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.no-underline{
+    text-decoration: none;
+    color: #121212;
+}
+.header-1440 {
+    display: none;
+}
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #121212;
+}
+
+.header-ic {
+    border: 1px solid #121212;
+    width: 10%;
+}
+
+.ham {
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-right: 2px solid #121212 ;
+}
+
+.shopbag {
+    border-left: 2px solid #121212 ;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.mobile-ham li {
+    padding: 10px;
+    background-color: #808080;
+    text-align: center;
+    
+}
+
+.mobile-ham {
+    width: 200px;
+    margin:  0 auto;
+}
+
+.mobile-ham a {
+    text-decoration: none;
+    color: #121212;
+    display: block; 
+    cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+     .header {
+        display: none;
+    }
+    .header-1440  {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #121212;
+        width: 100%;
+    }
+    .shop-contact, .sign-cart {
+        display: flex;
+    }
+    .header-1440  p {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+
+    }
+    .header-1440 .shop-1440,
+    .header-1440 .contact-1440,
+    .header-1440 .sign-1440,
+    .header-1440 .cart-1440 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 1px solid #121212;
+    } 
+}
+
+@media (min-width: 1440px) {
+
+
+    .header {
+        display: none;
+    }
+    .header-1440  {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #121212;
+        width: 100%;
+    }
+    
+    .header-1440  p {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+
+    }
+    .header-1440 .shop-1440,
+    .header-1440 .contact-1440,
+    .header-1440 .sign-1440,
+    .header-1440 .cart-1440 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 1px solid #121212;
+    }
+}

@@ -1,0 +1,25 @@
+@media (min-width: 1024px){
+    .desktop-flex1 {
+        display: flex;
+    }
+    .lc {
+        width: 100%;
+        border: 1px solid #121212;
+    }
+    .lc .left-column1 {
+        height: 54.5%;
+    }
+    .cat {
+        width: 100%;
+    }    
+
+
+}
+
+
+@media (min-width: 1440px) {
+    .lc .left-column1 {
+        height: 56.5%;
+    }
+}
+

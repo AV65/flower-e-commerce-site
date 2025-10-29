@@ -1,0 +1,389 @@
+.service-content img {
+    width: 100%;
+}
+
+.serviceh {
+    border: 1px solid #121212;
+}
+
+.service img {
+    width: 100%;
+}
+
+.hp h4 {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 0px;
+}
+
+.left-column {
+    margin-top: -4px;
+    border: none;
+}
+
+.hp {
+    border: 1px solid #121212;
+    margin-top: -4px;
+}
+
+.hp h2 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hp p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 16px 64px 16px;
+}
+
+.hp-btn {
+    margin: 0px 16px 40px 16px;
+}
+
+.hp-btn button {
+    background-color: white;
+    color: #121212;
+}
+
+.service h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: 30px 0px;
+}
+
+.service-content {
+    position: relative;
+}
+
+.wedding-text {
+    position: absolute;
+    top: 40px;
+}
+
+.wedding-text h4 {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wedding-text h2 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0px 16px 40px 16px;
+}
+
+.wedding-text p {
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 16px 64px 16px;
+}
+
+.wedding-btn button {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2.5%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px dotted #FFFFFF;
+}
+
+
+.wedding-btn {
+    margin: 0px 16px;
+}
+
+.wrap-footer2 {
+    border-top: none;
+    border-bottom: none ;
+}
+
+.wrap-footer .contact {
+    border-bottom: none;
+}
+
+.wrap-footer3 {
+    border-top: none ;
+}
+
+.desk {
+    display: none;
+}
+
+.mob {
+    display: block;
+}
+
+@media (min-width: 768px) {
+
+    .service h1 {
+        text-align: center;
+        margin: 60px 0px;
+    }
+
+    .service {
+        border: 1px solid #121212;
+    }
+
+    .wedding-text h4 {
+        margin: 0px;
+    }
+
+    .hp h2 {
+        font-size: 2.5rem;
+    }
+
+    .hp p {
+        font-size: 1.2rem;
+    }
+
+    .hp-btn button {
+        width: 30%;
+    }
+
+    .hp-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-content img{
+        height: 95vh;
+    }
+
+    .wedding-text h2{
+        margin-top: 4rem;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    .wedding-btn {
+        margin-top: 8rem;
+    }
+
+    .wedding-text h4 {
+        margin-top: 40px;
+        font-size: 1.2rem;
+    }
+
+    .wedding-text p {
+        margin: 0px 60px;
+    }
+
+    .wedding-btn {
+        display: flex;
+        justify-content: center;        
+    }
+    .wedding-btn button {
+        width: 40%;
+    }
+
+    .wrap-footer3 {
+        border-top: 2px solid #121212;
+    }
+
+
+    .servb img {
+        height: 90vh;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+}
+}
+
+@media (min-width: 1024px) {
+    .mob {
+        display: none;
+    }
+
+    .desk {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .flex-1440 {
+        display: flex;
+    }
+    .servb {
+        width: 100%;
+    }
+    .hp {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .hp h4 {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 150px 0px 50px 0px;
+
+
+    }
+
+    .hp h2 {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .hp p {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .hp-btn button{
+        margin-top: 50px;
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 3%;
+        vertical-align: middle;
+        text-transform: uppercase;
+
+    }
+
+    .wedding-text {
+        left: 100px;
+    }
+
+    .wedding-text h4 {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        margin-top: 80px;
+
+    }
+    .wedding-text h2 {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        margin-top: 100px;
+
+    }
+
+    .wedding-text p {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+    .inq-btn button {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: 3%;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    .desk {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .wedding-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+    .wedding-text {
+        position: absolute;
+        top: 45%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 20px;
+  }
+}
+

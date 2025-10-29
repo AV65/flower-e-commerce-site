@@ -1,0 +1,571 @@
+.foryou-flowersub-div, .foryou-pic, .foryou-pic img {
+    width: 100%;
+    height: 100%;
+}
+.foryou-flowersub-div {
+    border: 1px solid #121212;
+}
+
+.flower-sub-div {
+    width: 100%;
+    border-top: 1px solid #121212;
+}
+
+.foryourself h6, .asagift h6, .forbiz h6 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.flower-sub-div h2 {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+} 
+
+.flower-sub-div li {
+    width: 70%;
+    margin: auto;
+    list-style: outside;
+    padding-bottom: 20px;
+}
+
+.sub-btn {
+    width: 90%;
+    margin: auto;
+}
+
+.sub-btn button {
+    background: #fff;
+    color: #121212;
+}
+
+.howitworks {
+    padding: 40px 0;
+    text-align: center;
+    border: 1px solid #121212; 
+    border-top: none;   
+
+}
+
+.chooseaplan h3, .chooseaplan p,
+.freq-duration h3, .freq-duration p, 
+.pay-once h3, .pay-once p,  
+.classic img, .classic h4, 
+.seasonal img, .seasonal h4,  
+.luxe img, .luxe h4 {
+    padding: 30px 0 ;
+    width: 90%;
+    margin: auto;
+}
+
+.classic img,
+.seasonal img,
+.luxe img,
+.happiness img {
+    width: 100%;
+}
+
+.chooseaplan h3,
+.freq-duration h3,
+.pay-once h3 {
+    padding-bottom: 30px;
+}
+
+.chooseaplan, .freq-duration, .pay-once {
+    border: 1px solid #121212;
+    border-top: none;
+}
+
+.selectplan h3, .selectplan h6, .selectplan p {
+    width: 90%;
+    margin: auto;
+
+}
+.selectplan h6 {
+    padding: 30px 0;
+}
+.selectplan h3 {
+    padding-bottom: 20px;
+}
+
+.classic li, .seasonal li, .luxe li {
+    width: 70%;
+    margin: auto;
+    list-style: outside;
+}
+
+.classic h4, .seasonal h4, .luxe h4 {
+    padding: 20px 0;
+}
+
+.classic img, .seasonal img, .luxe img {
+    width: 90%;
+    margin: 0px 15px;
+}
+.selectplan, .classic, .seasonal, .luxe, .classic-btn {
+    border-right: 1px solid #121212;
+    border-left: 1px solid #121212;
+}
+.classic-btn {
+    padding: 20px 20px;
+
+}
+ul {
+    margin-bottom: 0px;
+}
+
+.how-often-div {
+    border: 1px solid #121212;
+    border-top: none;
+}
+
+.how-often-div h4, .how-often-div p {
+    width: 90%;
+    margin: auto;
+}
+.how-often-div h4 {
+    padding-top: 30px;
+    border-top: 1px solid #808080;
+}
+
+.how-often-div p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.how-often-btns  {
+    padding: 0px 20px;
+}
+.how-often-btns button {
+    background: #fff;
+    color: #121212;
+}
+
+.how-many-div h4 {
+    padding-top: 30px;
+    border-top: 1px solid #808080;
+}
+.how-many-div p {
+    padding: 20px 0px
+}
+
+.how-many-click {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #121212;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.how-many-click span {
+    display: flex;
+    align-items: center;
+}
+.how-many-click button{
+    margin-bottom: 0px;
+    width: 20%;
+    height: 40px;
+    background: #fff;
+    color: #121212;
+    border: none;
+    border-right: 1px solid #121212;
+    border-left: 1px solid #121212;
+}
+
+.how-many-div {
+    border: 1px solid #121212 ;
+    border-top: none;
+    border-bottom: none;
+}
+.how-many-div h4, .how-many-div p {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.checkout-btn {
+    padding: 50px 0px 0px 0px;
+    border: 1px solid #121212;
+    border-top: none;
+    padding: 40px 20px;
+}
+
+.faq-div {
+    border-right: 1px solid #121212;
+    border-left: 1px solid #121212;
+    padding: 30px 0px;
+}
+
+.faq-div h2 {
+    width: 90%;
+    margin: auto;
+} 
+
+.faqs h6 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+.faqs {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #121212;
+    width: 90% ;
+    margin: auto;
+}
+
+.foryourself h1 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: 'Semibold';
+    font-size: 34px;
+}
+
+.foryourself h6, .asagift h6, .forbiz h6 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+.forbiz li, .asagift li, .foryourself li {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 16px;
+}
+
+.howitworks h2 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: 'Semibold';
+    font-size: 34px;
+}
+
+.chooseaplan h3, .freq-duration h3, .pay-once h3 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+}
+
+.chooseaplan p, .freq-duration p, .pay-once p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 16px;
+}
+
+.selectplan h6 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+}
+.selectplan h3 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+}
+
+.selectplan p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 16px;
+}
+
+.classic h4, .seasonal h4, .luxe h4 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+}
+
+.classic li, .seasonal li, .luxe li {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 16px;
+}
+
+.how-often-div h4 {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 22px;
+}
+
+.how-often-div p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: "Regular";
+    font-size: 16px;
+}
+
+.faq-div h2 {
+    font-family:'Gilroy';
+    font-weight: 600;
+    font-style: 'Semibold';
+    font-size: 34px;
+}
+.faqs h6 {
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+.happiness {
+    border: 1px solid #121212;
+}
+
+@media (min-width: 768px) {
+    .flower-sub-div h2 {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    .flower-sub-div li {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .sub-btn {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .chooseaplan h3, .freq-duration h3, .pay-once h3 {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+    .chooseaplan p, .freq-duration p, .pay-once p {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+    .selectplan h6 {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .selectplan h3 {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .selectplan p {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .classic-btn {
+        padding: 3.5rem;
+    }
+
+    .classic img, .seasonal img, .luxe img {
+        padding: 1.8rem;
+    }
+
+    .classic h4, .luxe h4, .seasonal h4 {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .classic li, .luxe li, .seasonal li {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+
+    .how-often-div h4 {
+        width: 80%;
+        font-size: 1.3rem;
+    }   
+    .how-often-div p {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+    .how-often-btns {
+        width: 80%;
+        margin: auto;
+    }
+
+    .how-many-div h4 {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .how-many-div p{
+        width: 80%;
+        font-size: 1.1rem;
+    }
+    .how-many-click {
+        width: 30%;
+        margin-left: 80px;
+    }
+    .how-many-click span {
+        width: 10%;
+    }
+    .checkout-btn {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .checkout-btn button {
+        margin-top: 30px;
+    }
+
+    .faq-div {
+        margin: 40px;
+        border-top: 1px solid #121212;
+        border-bottom: 1px solid #121212;
+        background: #fff;
+    }
+    .faq-div-margin {
+        background-color: #F5F5F7;
+        padding: 40px;
+        border:1px solid #121212;
+
+    }
+    .foryourself h1 {
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .foryourself h6, .asagift h6, .forbiz h6 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .foryou-flowersub-div {
+        display: flex;
+        align-items: stretch;
+    }
+    .foryou-pic, .flower-sub-div {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-btn {
+        width: 50%;
+        margin-left: 60px;
+    }
+    .foryou-pic {
+        width: 100%;
+        height: 100%;
+
+    }
+    .foryou-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .flower-sub-div {
+        width: 100%;
+        border: 1px solid #121212;
+    }
+
+    .foryourself h6, .asagift h6, .forbiz h6 {
+        font-family: Gilroy;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+    }
+    .foryourself li, .asagift li, .forbiz li {
+        font-family: Gilroy;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+
+    }
+
+    .howflex {
+        display: flex;
+    }
+    .howitworks, .cfp {
+        width: 100%;
+    }
+
+    .build-wrap {
+        display: flex;
+    }
+
+    .happiness-build-div {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .happiness img {
+        width: 100%;
+    }
+    .happiness {
+        width: 100%;
+    }
+    .build {
+        width: 100%;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    .seasonal, .classic, .luxe {
+        display: flex;
+    }
+
+    .seasonal img, .classic img, .luxe img{
+        width: 50%;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .seasonal h4, .classic h4 {
+        width: 100%;
+        margin: 0px;
+    }
+    .classic ul, .luxe ul, .seasonal ul {
+        width: 100%;
+        display: block;
+    }
+
+    .classic-btn {
+        padding: 1rem;
+    }
+
+    .how-often-btns {
+        display: flex;
+        gap: 20px;
+    }
+
+    .how-many-click {
+        margin-left: 50px;
+    }
+    .checkout-btn {
+        padding: 0px 40px;
+    }
+
+    .faqs h6 {
+        font-family: Gilroy;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 28px;
+      
+    }
+
+    .faq-div h2 {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-style: Semibold;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+}
