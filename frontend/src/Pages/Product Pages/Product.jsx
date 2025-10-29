@@ -58,7 +58,7 @@ const Product = () => {
         <div className="details-1440">
           <h5 className="producttext hh5">BOUQUETS FRESH FLOWERS / QUICK ORDER</h5>
           <h3 className="producttext hh3">
-            {product.Title} - ₦{product.Price}
+            {product.Title} - ${product.Price}
           </h3>
           <p className="producttext pp">{product.Description}</p>
 

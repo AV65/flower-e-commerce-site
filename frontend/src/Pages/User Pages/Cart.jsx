@@ -61,7 +61,7 @@ const Cart = () => {
 
               <div className="cart-info">
                 <div className="cart-price">
-                  <p>₦{Number(item.price).toLocaleString()}</p>
+                  <p>${Number(item.price).toLocaleString()}</p>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Cart = () => {
 
             <div className="sub-total">
               <p>SubTotal: </p>
-              <p>₦{(Number(item.price) * item.quantity).toLocaleString()}</p>
+              <p>${(Number(item.price) * item.quantity).toLocaleString()}</p>
             </div>
 
             <div className="shipping">
@@ -91,7 +91,7 @@ const Cart = () => {
 
         <div className="total">
           <h3>Total:</h3>
-          <h3>₦{total.toLocaleString()}</h3>
+          <h3>${total.toLocaleString()}</h3>
         </div>
 
         <div className="cart-btn">
