@@ -1,88 +1,76 @@
-import { useParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+// src/Pages/Product Pages/Category.js
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import "./Category.css";
-import StampImage from "../../assets/fresh-hero.webp";
 
 const Category = () => {
   const { categoryType } = useParams();
   const [flowers, setFlowers] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
 
   const categoryMap = {
+    "Fresh-flowers": "Fresh-flowers",
+    "dry-flowers": "dry-flowers",
+    "live-plants": "live-plants",
+    "aroma-candles": "aroma-candles",
+    "fresheners": "fresheners",
+  };
+
+  const displayNames = {
     "Fresh-flowers": "Fresh Flowers",
     "dry-flowers": "Dry Flowers",
-    "live-plants": "Live Flowers",
-    "aroma-candles": "Aroma Candels",
+    "live-plants": "Live Plants",
+    "aroma-candles": "Aroma Candles",
     "fresheners": "Fresheners",
   };
 
   const categoryName = categoryMap[categoryType];
 
   useEffect(() => {
-    if (!categoryName) {
-      setError("Invalid category");
-      setLoading(false);
-      return;
-    }
-
     const fetchFlowers = async () => {
       try {
-        const res = await fetch(
-          `${process.env.REACT_APP_BACKEND_URL || "https://flower-website-backend-two.onrender.com"}/api/flowers`
-        );
+        const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/flowers`);
         const data = await res.json();
-
-        // In case the response is an array, not an object
-        const flowerList = Array.isArray(data) ? data : data.flowers || [];
-
-        const filtered = flowerList.filter(
-          (flower) =>
-            flower.Category &&
-            flower.Category.toLowerCase() === categoryName.toLowerCase()
-        );
-
-        setFlowers(filtered);
+        setFlowers(data);
       } catch (err) {
-        setError("Error fetching flowers.");
         console.error("Error fetching flowers:", err);
       } finally {
         setLoading(false);
       }
     };
-
     fetchFlowers();
-  }, [categoryName]);
+  }, []);
 
-  if (loading) return <div className="flowerloading">Loading flowers...</div>;
-  if (error) return <div>{error}</div>;
-  if (flowers.length === 0)
-    return (
-      <div className="noflowersm">
-        No flowers found in the "{categoryName}" category.
-      </div>
-    );
+  if (loading) {
+    return <div className="loading">Loading...</div>;
+  }
+
+  const filteredFlowers = flowers.filter(
+    (flower) =>
+      flower.Category &&
+      flower.Category.toLowerCase() === categoryName?.toLowerCase()
+  );
 
   return (
-    <div className="category-page">
-      <div className="category-stamp-img">
-        <img className="category-stamp" src={StampImage} alt="stamp" />
-        <h3>{categoryName}</h3>
-      </div>
+    <div className="category-container">
+      <h3>{displayNames[categoryType]}</h3>
 
-      <div className="flowers-grid">
-        {flowers.map((flower) => (
-          <Link to={`/product/${flower._id}`} key={flower._id}>
-            <div className="flower-item">
-              <img src={flower.Image} alt={flower.Title} />
-              <div className="flower-np">
-                <h6>{flower.Title}</h6>
-                <p>Price: ${flower.Price}</p>
+      {filteredFlowers.length > 0 ? (
+        <div className="category-grid">
+          {filteredFlowers.map((flower) => (
+            <div className="category-item" key={flower._id}>
+              <img src={flower.image} alt={flower.name} />
+              <div className="category-info">
+                <h4>{flower.name}</h4>
+                <p>₦{Number(flower.price).toLocaleString()}</p>
+                <Link to={`/product/${flower._id}`}>View</Link>
               </div>
             </div>
-          </Link>
-        ))}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <div className="empty-category">No flowers found in this category.</div>
+      )}
     </div>
   );
 };
