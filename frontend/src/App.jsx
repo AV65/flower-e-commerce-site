@@ -43,13 +43,13 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/category/:categoryType" element={<Category />} />
 
-          {/* ✅ Pass addToCart into Product Page */}
+          {/*  Pass addToCart into Product Page */}
           <Route path="/product/:id" element={<Product addToCart={addToCart} />} />
 
           <Route path="/subscription" element={<Subscription />} />
           <Route path="/about" element={<About />} />
 
-          {/* ✅ Pass cart into Cart Page */}
+          {/*  Pass cart into Cart Page */}
           <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
           <Route path="/success" element={<Success />} />
 

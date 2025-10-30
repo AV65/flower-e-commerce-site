@@ -11,6 +11,7 @@ This repository contains a React frontend and a Node/Express backend (MongoDB) t
 - About
 - Features
 - Live Demo
+- Presentation Link
 - Tech Stack
 - Repo Structure
 - Getting Started (Windows / PowerShell)
@@ -37,6 +38,8 @@ The Flower E-commerce Site is a small full-stack project demonstrating a product
 ## Live Demo
 [Live Demo](https://flower-e-commerce-site.onrender.com/)
 
+## Presentation Link
+[Presentation link](https://www.loom.com/share/8b573988ee844bf2a72c09e772426739)
 ## Tech Stack
 
 - Frontend: React (Create React App), React Router, Axios
