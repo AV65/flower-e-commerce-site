@@ -14,7 +14,7 @@ import SignIn from './Pages/User Pages/Signin';
 import SignUp from './Pages/User Pages/SignUp';
 import Contact from './Components/Contact';
 import Cate from './Components/Shop';
-import success from './Pages/User Pages/success';
+import Success from './Pages/User Pages/Success';
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
 
           {/* ✅ Pass cart into Cart Page */}
           <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
-          <Route path="/success" element={<success />} />
+          <Route path="/success" element={<Success />} />
 
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
