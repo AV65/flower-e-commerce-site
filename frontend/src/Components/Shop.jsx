@@ -1,3 +1,4 @@
+// ...existing code...
 import './Shop.css';
 import Fresh from '../assets/fresh.webp';
 import Dried from '../assets/dried.webp';
@@ -17,6 +18,13 @@ const Category = () => {
                     <div className="fresh-text">
                         <h3>Fresh Flowers</h3>
                         <div className="shop-arrow"><p>Shop now<span>&#8594;</span></p></div>
+                    </div>
+                </Link>
+
+                {/* Added fresh image link (mirrors Live section) */}
+                <Link to="/category/Fresh-flowers">
+                    <div className="fresh-img">
+                        <img src={Fresh} alt="fresh flowers link" />
                     </div>
                 </Link>
                 
@@ -92,3 +100,4 @@ const Category = () => {
 }
  
 export default Category;
+// ...existing code...
