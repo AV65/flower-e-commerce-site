@@ -1,0 +1,387 @@
+.kyiv-pic {
+    width: 100%;
+}
+.kyiv-pic img {
+    width: 100%;
+}
+
+.kyiv-follow {
+    width: 100%;
+    border-bottom: 1px solid #121212;
+}
+
+.kyiv-follow h3 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+    height: 100%;
+}
+
+.follow-ic {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.follow-ic img {
+    margin: 20px 10px 10px 0px;
+}
+
+.top-block {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.top-block h2 {
+    padding: 20px 0;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 34px;
+}
+
+.top-block label {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+}
+
+.phone-div h3 {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+        font-family: Gilroy;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+}
+
+.phone-div {
+    border-bottom: 1px solid #121212;
+}
+
+.phone-no1 {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0 0 0;
+}
+
+.phone-no1 h5 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 16px;
+}
+
+.phone-no {
+    margin-bottom: 30px;
+}
+.address-div h3 {
+    padding: 50px 0 50px 0;
+    width: 90%;
+    margin: auto;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+}
+
+.loc {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.address-loc h5 {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0 15px 0;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+}
+
+.loc {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.loc h6 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 14px;
+}
+
+.contact-main-div {
+    border: 1px solid #121212;
+}
+
+.bottom-block {
+    border-top: 1px solid #121212;
+
+}
+
+.address-div {
+    border-bottom: 1px solid #121212;
+    border-top: 1px solid #121212;
+}
+
+@media (min-width: 768px) {
+    .kyiv-follow {
+        display: flex;
+    }
+    .kyiv-follow h3 {
+        width: 100%;
+        text-align: center;
+        margin-top: -4px;
+        border-right: 1px solid #121212;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .follow-ic {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .follow-ic img {
+        margin-right: 30px;
+    }
+
+    .block-call-div {
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .top-block h2 {
+        font-family: Gilroy;
+        font-weight: 600;
+        font-style: Semibold;
+        font-size: 50px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
+    .bottom-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .phone-div {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .phone-div h3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        font-size: 1.6rem;
+    }
+
+    .address-div {
+        grid-column: 2;
+        grid-row: 1;
+        border-top: none;
+        border-left: 1px solid #121212;
+    }
+    .address-div h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .phone-no {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+
+    .address-loc {
+        grid-column: 2;
+        grid-row: 2;
+        border-left: 1px solid #121212; 
+        margin: 0 auto;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .address-loc h5{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .address-loc h6{
+        width: 100%;
+        text-align: center;
+        margin-left: -70px;
+    }
+
+    .address-loc img {
+        padding-left: 70px;
+    }
+
+    .top-block label {
+        font-size: 1.3rem;
+    }
+
+    .loc {
+        gap: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .contact-main-div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: stretch;
+    }
+
+    .kyiv,
+    .to-contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-block {
+        height: auto;
+    }
+
+    .kyiv {
+        width: 100%;
+    }
+    .to-contact-us {
+        width: 100%;
+    }
+
+    .follow-ic img {
+        margin-right: 5px;
+        width: 15%;
+    }
+    .kyiv-follow {
+        border-bottom: none;
+
+    }
+    .loc {
+        margin-bottom: 0px;
+    }
+
+    .loc img {
+        padding-left: 20px;
+    }
+    .loc h6 {
+        margin-left: 0px;
+    }
+
+    .kyiv-follow {
+        height: auto;
+    }
+    .kyiv-follow h3 {
+        border-left: 1px solid #121212;
+        font-size: 1.8rem;
+    }
+
+    .phone-div h3 {
+        font-size: 1.9rem;
+    }
+    .address-div h3 {
+        font-size: 1.9rem;
+    }
+
+    .phone-no1 h5 {
+        font-size: 1.3rem;
+    }
+
+    .phone-no {
+        padding: 0;
+    }
+
+    .loc h6 {
+        font-size: 1.3rem;
+    }
+    .address-loc {
+        padding: 0;
+        margin: 0;
+    }
+
+    .address-loc h5 {
+        padding: 0;
+    }
+
+    .phone-no {
+        padding: 40px 0;
+        
+    }
+
+    .address-loc {
+        padding: 40px 0;
+    }
+
+    .kyiv-follow {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-bottom: none;
+}
+
+.kyiv-follow h3 {
+    border-left: 1px solid #121212;
+    font-size: 1.8rem;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.follow-ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+
+}
+
+@media (min-width: 1440px) {
+    .loc img {
+        padding-left: 30px;
+    }
+
+    .loc h6 {
+        margin-left: 0px;
+        font-size: 1.3rem;
+    }
+
+    .address-loc {
+        height: auto;
+    }
+
+    .kyiv-follow h3 {
+        height: auto;
+    }
+
+    .follow-ic img {
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,211 @@
+.our-story, .our-founders, .sf-text, .tf-text, .discover-div {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.our-story h2, .our-story span, .our-story p {
+    padding-top: 20px;
+}
+.social-media-icons img{
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+}
+.hero-tab, .tab-1, .tab-2, .tab-3 {
+    display: none;
+}
+.our-founders h3, .our-founders h5, .our-founders p {
+    padding-bottom: 30px;
+}
+.mob-tab-2, .mob-tab-3{
+    margin-top: 60px;
+}
+.discover-div {
+    margin-top: 60px;
+    border-top: 1px solid #121212;
+    width: 100%;
+}
+.discover-div button {
+    width: 90%;
+    margin-top: 30px;
+}
+.tf-text h3, .sf-text h3 {
+    margin-bottom: 20px;
+}
+.about-us-main-div {
+    border: 1px solid #121212;
+}
+.first-pic img, .mob-tab-1 img, .mob-tab-2 img, .mob-tab-3 img {
+    width: 100%;
+}
+.our-story h2 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 34px;
+}
+.our-story span {
+    font-family: 'Zapfino';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+}
+.our-story p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: Regular Italic;
+    font-size: 18px;
+    text-align: center;
+
+}
+.our-founders h5 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    text-align: center;
+}
+.our-founders h3 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+    text-align: center;
+}
+.our-founders p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    text-align: center;
+}
+.sf-text h3, .tf-text h3 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 26px;
+}
+.sf-text p, .tf-text p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-style: Regular;
+}
+.discover-div h2 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.discover-div p {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .first-flex {
+        display: flex;
+    }
+    .second-flex {
+        display: flex;
+    }
+    .third-flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .fourth-flex {
+        display: flex;
+    }
+    .our-story, .first-pic, .first-pic img, .mob-tab-1, .mob-tab-1 img, .sf-text, .mob-tab-2, .mob-tab-2 img, .tf-text, .mob-tab-3, .mob-tab-3 img {
+        width: 100%;
+    }
+    .first-pic img {
+        margin-bottom: -5px;
+    }
+    .first-flex {
+        border-bottom: 1px solid #121212;
+    }
+    .sf-text, .tf-text, .mob-tab-2, .mob-tab-3 {
+        padding: 0px;
+        margin: 0px;
+    }
+    .our-story h3 {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-style: Semibold;
+        font-size: 50px;
+    }
+    .our-story span {
+        font-family: 'Zapfino';
+        font-weight: 400;
+        font-size: 48px;
+    }
+    .our-story p {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .our-founders h5 {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 14px;
+        text-align: center;
+    }
+    .our-founders h3 {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 38px;
+        text-align: center;
+
+    }
+    .our-founders p {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+
+    }
+    .sf-text h3, .tf-text h3 {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 38px;
+        padding-top: 40px;
+    }
+    .sf-text p, .tf-text p {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+    }
+    .discover-div {
+        margin-top: -4px;
+    }
+    .discover-div h2{
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-style: Semibold;
+        font-size: 50px;
+        text-align: center;
+    }
+    .discover-div p {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        text-align: center;
+    }
+    .discover-div button {
+        width: 50%;
+    }
+    .sf-text {
+        border-top: 1px solid #121212;
+    }
+}

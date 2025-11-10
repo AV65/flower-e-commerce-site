@@ -1,0 +1,109 @@
+.review-content {
+    text-align: center;
+}
+
+.review-btn {
+    margin: 0px 16px 40px 16px;
+}
+
+.review-btn button {
+    background-color: #FFFFFF;
+    color: #121212;
+}
+
+.review-content img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.review-content h4 {
+    margin-bottom: 24px;
+}
+
+.review-content h2 {
+    margin-bottom: 16px;
+}
+
+.review-content i {
+    margin-bottom: 16px;
+}
+
+.review-content p {
+    margin-bottom: 36px;
+}
+
+.slidenav {
+    margin-bottom: 64px;
+}
+
+.review-content {
+    border: 1px solid #121212;
+    margin-bottom: 2px;
+    margin-top: -4px;
+}
+
+.review-content span{
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .review-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+
+    .review-content {
+        margin-bottom: 0px;
+    }
+
+    .review-btn button {
+        width: 30%;
+    }
+
+    .review-content i {
+        margin: 3rem;
+    }
+    .review-content p {
+        margin-top: 50px;
+    }
+
+    .review-content span {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .review-content {
+        margin-bottom: -1px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .review-content {
+        font-size: 2rem;
+    }
+
+    .review-btn button {
+        width: 200px;
+        height: 30px;
+    }
+
+    .review-content span {
+        display: block;
+    }
+
+    .spani {
+        display: flex;
+        padding: 0px 16px;
+    }
+
+    .review-btn button {
+        width: 200px;
+        height: 70px;
+    }
+    
+}
